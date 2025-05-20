@@ -29,8 +29,6 @@ if uploaded_file is not None:
     st.image(img_np, caption="(Simulated) Capital Letters Highlighted", use_column_width=True)
 
     st.subheader("📋 Extracted Capital Letters")
-    st.code("HELLO
-WORLD
-TEST")
+    st.code("""HELLO WORLD TEST""")
 else:
     st.info("Upload an image to simulate capital letter detection.")
